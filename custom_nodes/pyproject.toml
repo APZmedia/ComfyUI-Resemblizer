@@ -1,0 +1,17 @@
+[project]
+name = "APZmedia ComfyUI Resemblyzer Similarity"
+description = "A ComfyUI custom node for comparing the similarity of two audio files using Resemblyzer."
+version = "1.0.0"
+license = { file = "LICENSE.txt" }
+dependencies = [
+    "resemblyzer>=0.1.1",
+    "numpy"
+]
+
+[project.urls]
+Repository = "https://github.com/APZmedia/ComfyUI-Resemblizer"
+
+[tool.comfy]
+PublisherId = "apzmedia"
+DisplayName = "APZmedia Resemblyzer Audio Similarity"
+Icon = "https://raw.githubusercontent.com/APZmedia/ComfyUI-APZmedia-cleanName-from-string/main/icon.png" 
