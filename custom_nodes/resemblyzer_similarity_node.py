@@ -2,7 +2,7 @@ from resemblyzer import VoiceEncoder, preprocess_wav
 from pathlib import Path
 import numpy as np
 
-class ResemblyzerSimilarityNode:
+class APZmediaResemblyzerSimilarityNode:
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -31,9 +31,9 @@ class ResemblyzerSimilarityNode:
         return (similarity,)
 
 NODE_CLASS_MAPPINGS = {
-    "ResemblyzerSimilarityNode": ResemblyzerSimilarityNode,
+    "APZmediaResemblyzerSimilarityNode": APZmediaResemblyzerSimilarityNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ResemblyzerSimilarityNode": "Resemblyzer Audio Similarity",
+    "APZmediaResemblyzerSimilarityNode": "APZmedia Resemblyzer Audio Similarity",
 } 
