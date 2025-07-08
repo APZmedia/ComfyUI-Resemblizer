@@ -1,6 +1,8 @@
-# Resemblyzer Audio Similarity Node for ComfyUI
+# APZmedia Resemblyzer Audio Similarity Node for ComfyUI
 
 This custom node allows you to compare the similarity of two audio files using the [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) deep learning model. It outputs a similarity score based on the cosine similarity of the voice embeddings.
+
+**This is the APZmedia version of the Resemblyzer Audio Similarity node, uniquely named to avoid conflicts with similarly named nodes from other publishers.**
 
 ## Features
 - Accepts two audio file paths as input
@@ -16,7 +18,7 @@ This custom node allows you to compare the similarity of two audio files using t
 
 ## Usage
 - Restart ComfyUI after adding this node.
-- In the ComfyUI interface, search for **Resemblyzer Audio Similarity** under the Audio category.
+- In the ComfyUI interface, search for **APZmedia Resemblyzer Audio Similarity** under the Audio category.
 - Provide two audio file paths as input.
 - The node will output a similarity score between -1.0 and 1.0 (higher means more similar).
 
